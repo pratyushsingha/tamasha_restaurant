@@ -71,7 +71,7 @@ if (isset($_POST['submit'])) {
             if ($new_password == $confirm_password) {
                 // update the password
                 echo "password matched";
-                // ******the error is comming here*******
+                // ******the problem is comming here*******
             } else {
                 // redirect to manage-admin page with error message
                 $_SESSION['pwd-not-match'] = "<div class='error'>password did not match❌</div>";
